@@ -1,0 +1,23 @@
+{
+  "name": "adv-web-lab-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinpacchi-10/Adv-Web-Lab-Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zinpacchi-10/Adv-Web-Lab-Task/issues"
+  },
+  "homepage": "https://github.com/zinpacchi-10/Adv-Web-Lab-Task#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
