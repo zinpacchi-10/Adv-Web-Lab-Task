@@ -10,3 +10,15 @@ function display() {
     console.log("Hi my name is md al amin. i am a solo learn tsc.so,please help if you weant");
 }
 display();
+//user define Type(union type)
+let userIdss;
+userIdss = 143;
+userIdss = "jannat";
+userIdss = true;
+console.log(userIdss);
+function dispalyUserInfo(userIdss) {
+    console.log(userIdss);
+}
+dispalyUserInfo(111);
+dispalyUserInfo("sadia");
+dispalyUserInfo(false);
