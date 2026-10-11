@@ -22,3 +22,13 @@ cUser3= {
 };
 cUser.push(cUser3);
 console.log(cUser);
+
+//
+type RequestType = "GET" | "POST";
+let getRequest: RequestType;
+getRequest = 'GET';
+
+function requestHandeler(requestType: RequestType) {
+  console.log(requestType );
+}
+requestHandeler; ("GET");

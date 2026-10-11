@@ -17,3 +17,10 @@ cUser3 = {
 };
 cUser.push(cUser3);
 console.log(cUser);
+let getRequest;
+getRequest = 'GET';
+function requestHandeler(requestType) {
+    console.log(requestType);
+}
+requestHandeler;
+("GET");
