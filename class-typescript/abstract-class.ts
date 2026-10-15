@@ -1,6 +1,6 @@
 export {};
 
-export abstract class User {
+abstract class User {
   userName: string;
   age: number;
 
@@ -12,7 +12,7 @@ export abstract class User {
   abstract display(): void;
 }
 
-export class Student extends User {
+class Student extends User {
   studentId: number;
 
   constructor(userName: string, age: number, studentId: number) {
@@ -29,3 +29,4 @@ export class Student extends User {
 
 const student1 = new Student('alamin', 22, 1853400546);
 student1.display();
+
