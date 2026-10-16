@@ -2,8 +2,10 @@
 
 //private kono jaygay theke acces korte parbo nh ,modify o korte parbo nh
 //jodi private thika access korte cai tile kisu public method create koira nite pari
+//readonly read korte parbo but modify korte parbo nh
+
 class User {
-   userName: string;
+   readonly userName: string;
   public age: number;
 
   constructor(userName: string, age: number) {
@@ -45,6 +47,6 @@ student1.setStudentId(7348743788);
 console.log(student1.getStudentId());
 //student1.display();
 let user1 = new User("alamin", 22);
-user1.userName = "jANNAT";//class  er bhahira access korte parbo nh jodi protected thake
+//user1.userName = "jANNAT";//class  er bhahira access korte parbo nh jodi protected thake
 user1.display();
-//console.log(user1);
+console.log(user1.userName);
