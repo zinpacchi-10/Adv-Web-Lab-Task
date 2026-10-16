@@ -8,7 +8,7 @@ class User {
         this.age = age;
     }
     display() {
-        console.log("hi");
+        console.log(`username: ${this.userName}, age ${this.age}}`);
     }
     ;
 }
@@ -23,7 +23,8 @@ class Student extends User {
     }
 }
 let student1 = new Student('alamin', 22, 1853400546);
-student1.display();
+//student1.display();
 let user1 = new User("alamin", 22);
 user1.userName = "jANNAT";
-console.log(user1);
+user1.display();
+//console.log(user1);
