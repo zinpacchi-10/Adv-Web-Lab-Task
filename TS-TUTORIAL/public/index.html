@@ -1,15 +1,46 @@
-<!doctype <!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <title></title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Welcome</h1>
-    <script src="./index.js">
-      
-    </script>
+    <h1>User Registration</h1>
+
+    <form class="user-form">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+      </div>
+
+      <div>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+          <option value="">Chose Your Country</option>
+          <option value="Ban">Bangladesh</option>
+          <option value="ind">India</option>
+          <option value="usa">United State of Amirica</option>
+          <option value="mal">Malyasia</option>
+          <option value="nep">Napel</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="feedback">Feedback:</label>
+        <textarea name="feedback" id="feedback" rows="5" cols="30"></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
+
+    <script type="module" src="../dist/index.js"></script>
   </body>
 </html>

@@ -1,4 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log("app");
+export {};
 //# sourceMappingURL=app.js.map
