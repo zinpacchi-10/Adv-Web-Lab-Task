@@ -17,3 +17,4 @@ const printUserInfo = (user) => {
     console.log(`userid = ${user.id}, name = ${user.name}, age = ${user.age}`);
 };
 users.forEach(user => printUserInfo(user));
+console.log(users);
