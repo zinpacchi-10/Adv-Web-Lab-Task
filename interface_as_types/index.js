@@ -1,4 +1,3 @@
-"use strict";
 let users = [];
 let user1 = {
     id: 1,
@@ -18,3 +17,4 @@ const printUserInfo = (user) => {
 };
 users.forEach(user => printUserInfo(user));
 console.log(users);
+export {};
