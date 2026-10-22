@@ -1,9 +1,9 @@
 "use strict";
 //generic mainly runtime user datatype change korte pare
-function printUserInfo(userId) {
-    console.log(`user id : $(userId)`);
-}
-printUserInfo("101");
-printUserInfo(101);
-// printUserInfo(ture);
-printUserInfo({ id: 101 });
+const printUserInfo = (userId, userAge) => {
+    console.log(`Id : $(userId) Age:${userAge}`);
+};
+printUserInfo("101", 22);
+printUserInfo(101, "22");
+// printUserInfo(22,false);
+// printUserInfo({id:101});
